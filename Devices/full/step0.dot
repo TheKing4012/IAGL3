@@ -1,0 +1,62 @@
+digraph G { 
+	rankdir=BT;
+subgraph System { 
+label="System";
+4 [shape=record,style=filled,label="{C_System_4|MyManga\n|MyManga\n}"];
+5 [shape=record,style=filled,label="{C_System_5|MangaStore\n|MangaStore\n}"];
+6 [shape=record,style=filled,label="{C_System_6|MangaFan\n|MangaFan\n}"];
+7 [shape=record,style=filled,label="{C_System_7|MangaHome\n|MangaHome\n}"];
+}
+subgraph Feature { 
+label="Feature";
+11 [shape=record,style=filled,label="{C_Feature_11|search\n|search\n}"];
+12 [shape=record,style=filled,label="{C_Feature_12|viewComment\n|viewComment\n}"];
+13 [shape=record,style=filled,label="{C_Feature_13|addComment\n|addComment\n}"];
+14 [shape=record,style=filled,label="{C_Feature_14|moderateComment\n|moderateComment\n}"];
+15 [shape=record,style=filled,label="{C_Feature_15|CRUDproducts\n|CRUDproducts\n}"];
+16 [shape=record,style=filled,label="{C_Feature_16|manageCart\n|manageCart\n}"];
+17 [shape=record,style=filled,label="{C_Feature_17|pay\n|pay\n}"];
+18 [shape=record,style=filled,label="{C_Feature_18|makePromotionalCampaign\n|makePromotionalCampaign\n}"];
+19 [shape=record,style=filled,label="{C_Feature_19|signUp\n|signUp\n}"];
+20 [shape=record,style=filled,label="{C_Feature_20|manageUserAccount\n|manageUserAccount\n}"];
+21 [shape=record,style=filled,label="{C_Feature_21|manageProfile\n|manageProfile\n}"];
+}
+subgraph Role { 
+label="Role";
+22 [shape=record,style=filled,label="{C_Role_22|User\n|User\n}"];
+23 [shape=record,style=filled,label="{C_Role_23|productOwner\n|productOwner\n}"];
+24 [shape=record,style=filled,label="{C_Role_24|communityManager\n|communityManager\n}"];
+25 [shape=record,style=filled,label="{C_Role_25|admin\n|admin\n}"];
+26 [shape=record,style=filled,label="{C_Role_26|registeredUser\n|registeredUser\n}"];
+}
+subgraph RoleFeat { 
+label="RoleFeat";
+27 [shape=record,style=filled,label="{C_RoleFeat_27|MyManga,user,search\n|MyManga,user,search\n}"];
+28 [shape=record,style=filled,label="{C_RoleFeat_28|MyManga,user,viewComment\n|MyManga,user,viewComment\n}"];
+29 [shape=record,style=filled,label="{C_RoleFeat_29|MyManga,user,addComment\n|MyManga,user,addComment\n}"];
+30 [shape=record,style=filled,label="{C_RoleFeat_30|MyManga,productOwner,CRUDproducts\n|MyManga,productOwner,CRUDproducts\n}"];
+31 [shape=record,style=filled,label="{C_RoleFeat_31|MyManga,communityManager,moderateComment\n|MyManga,communityManager,moderateComment\n}"];
+32 [shape=record,style=filled,label="{C_RoleFeat_32|MangaStore,user,search\n|MangaStore,user,search\n}"];
+33 [shape=record,style=filled,label="{C_RoleFeat_33|MangaStore,user,manageCart\n|MangaStore,user,manageCart\n}"];
+34 [shape=record,style=filled,label="{C_RoleFeat_34|MangaStore,user,pay\n|MangaStore,user,pay\n}"];
+35 [shape=record,style=filled,label="{C_RoleFeat_35|MangaStore,productOwner,makePromotionalCampaign\n|MangaStore,productOwner,makePromotionalCampaign\n}"];
+36 [shape=record,style=filled,label="{C_RoleFeat_36|MangaStore,productOwner,CRUDproducts\n|MangaStore,productOwner,CRUDproducts\n}"];
+37 [shape=record,style=filled,label="{C_RoleFeat_37|MangaFan,user,search\n|MangaFan,user,search\n}"];
+38 [shape=record,style=filled,label="{C_RoleFeat_38|MangaFan,user,manageCart\n|MangaFan,user,manageCart\n}"];
+39 [shape=record,style=filled,label="{C_RoleFeat_39|MangaFan,user,pay\n|MangaFan,user,pay\n}"];
+40 [shape=record,style=filled,label="{C_RoleFeat_40|MangaFan,user,signUp\n|MangaFan,user,signUp\n}"];
+41 [shape=record,style=filled,label="{C_RoleFeat_41|MangaFan,admin,CRUDproducts\n|MangaFan,admin,CRUDproducts\n}"];
+42 [shape=record,style=filled,label="{C_RoleFeat_42|MangaFan,admin,manageUserAccount\n|MangaFan,admin,manageUserAccount\n}"];
+43 [shape=record,style=filled,label="{C_RoleFeat_43|MangaFan,registeredUser,manageProfile\n|MangaFan,registeredUser,manageProfile\n}"];
+44 [shape=record,style=filled,label="{C_RoleFeat_44|MangaFan,admin,manageProfile\n|MangaFan,admin,manageProfile\n}"];
+45 [shape=record,style=filled,label="{C_RoleFeat_45|MangaHome,user,search\n|MangaHome,user,search\n}"];
+46 [shape=record,style=filled,label="{C_RoleFeat_46|MangaHome,user,viewComment\n|MangaHome,user,viewComment\n}"];
+47 [shape=record,style=filled,label="{C_RoleFeat_47|MangaHome,user,addComment\n|MangaHome,user,addComment\n}"];
+48 [shape=record,style=filled,label="{C_RoleFeat_48|MangaHome,communityManager,moderateComment\n|MangaHome,communityManager,moderateComment\n}"];
+49 [shape=record,style=filled,label="{C_RoleFeat_49|MangaHome,user,signUp\n|MangaHome,user,signUp\n}"];
+50 [shape=record,style=filled,label="{C_RoleFeat_50|MangaHome,admin,CRUDproducts\n|MangaHome,admin,CRUDproducts\n}"];
+51 [shape=record,style=filled,label="{C_RoleFeat_51|MangaHome,admin,manageUserAccount\n|MangaHome,admin,manageUserAccount\n}"];
+52 [shape=record,style=filled,label="{C_RoleFeat_52|MangaHome,registeredUser,manageProfile\n|MangaHome,registeredUser,manageProfile\n}"];
+53 [shape=record,style=filled,label="{C_RoleFeat_53|MangaHome,admin,manageProfile\n|MangaHome,admin,manageProfile\n}"];
+}
+}

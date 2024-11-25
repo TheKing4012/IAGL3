@@ -1,0 +1,24 @@
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)),exist_System2RoleFeat(exist_RoleFeat2Role(communityManager)&exist_RoleFeat2Feat(moderateComment)) => exist_System2RoleFeat(exist_RoleFeat2Feat(viewComment)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(addComment)/I/exist_RoleFeat2Role(User))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageProfile)) => exist_System2RoleFeat(exist_RoleFeat2Role(registeredUser)/I/exist_RoleFeat2Feat(manageProfile)),exist_System2RoleFeat(exist_RoleFeat2Feat(signUp)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageUserAccount)/I/exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Role(admin))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Role(registeredUser)/I/exist_RoleFeat2Feat(manageProfile)),exist_System2RoleFeat(exist_RoleFeat2Feat(signUp)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageUserAccount)/I/exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageProfile))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageUserAccount)/I/exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Role(registeredUser)/I/exist_RoleFeat2Feat(manageProfile)),exist_System2RoleFeat(exist_RoleFeat2Feat(signUp)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageProfile))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(signUp)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Role(registeredUser)/I/exist_RoleFeat2Feat(manageProfile)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageUserAccount)/I/exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageProfile))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(pay)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Feat(manageCart)/I/exist_RoleFeat2Role(User))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageCart)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Feat(pay)/I/exist_RoleFeat2Role(User))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(addComment)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Feat(viewComment)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(communityManager)&exist_RoleFeat2Feat(moderateComment))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(viewComment)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Feat(addComment)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(communityManager)&exist_RoleFeat2Feat(moderateComment))
+<2> exist_System2RoleFeat(exist_RoleFeat2Feat(search)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Role(registeredUser)/I/exist_RoleFeat2Feat(manageProfile)),exist_System2RoleFeat(exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(CRUDproducts)) => exist_System2RoleFeat(exist_RoleFeat2Feat(signUp)/I/exist_RoleFeat2Role(User)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageUserAccount)/I/exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Role(admin)),exist_System2RoleFeat(exist_RoleFeat2Feat(manageProfile))

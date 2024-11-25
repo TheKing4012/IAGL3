@@ -1,0 +1,1137 @@
+[
+{
+"attributes": {
+"exist_System2RoleFeat": {
+"concepts": [
+54,
+62,
+64
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [
+68,
+69,
+70,
+71
+],
+"context": "System",
+"id": 72,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_System2RoleFeat": {
+"concepts": [
+56,
+57,
+67
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [
+4,
+7
+],
+"context": "System",
+"id": 69,
+"objects": [],
+"parents": [
+72
+]
+},
+{
+"attributes": {
+"exist_System2RoleFeat": {
+"concepts": [
+55,
+60,
+61,
+63,
+65
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [
+6,
+7
+],
+"context": "System",
+"id": 68,
+"objects": [],
+"parents": [
+72
+]
+},
+{
+"attributes": {
+"exist_System2RoleFeat": {
+"concepts": [
+58,
+59
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [
+5,
+6
+],
+"context": "System",
+"id": 70,
+"objects": [],
+"parents": [
+72
+]
+},
+{
+"attributes": {
+"exist_System2RoleFeat": {
+"concepts": [
+66
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [
+4,
+5
+],
+"context": "System",
+"id": 71,
+"objects": [],
+"parents": [
+72
+]
+},
+{
+"attributes": {
+"MangaHome": "MangaHome",
+"exist_System2RoleFeat": {
+"concepts": [
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+52,
+53
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [],
+"context": "System",
+"id": 7,
+"objects": [
+"MangaHome"
+],
+"parents": [
+68,
+69
+]
+},
+{
+"attributes": {
+"MangaFan": "MangaFan",
+"exist_System2RoleFeat": {
+"concepts": [
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [],
+"context": "System",
+"id": 6,
+"objects": [
+"MangaFan"
+],
+"parents": [
+68,
+70
+]
+},
+{
+"attributes": {
+"MangaStore": "MangaStore",
+"exist_System2RoleFeat": {
+"concepts": [
+32,
+33,
+34,
+35,
+36
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [],
+"context": "System",
+"id": 5,
+"objects": [
+"MangaStore"
+],
+"parents": [
+70,
+71
+]
+},
+{
+"attributes": {
+"MyManga": "MyManga",
+"exist_System2RoleFeat": {
+"concepts": [
+27,
+28,
+29,
+30,
+31
+],
+"operator": "exist",
+"relation": "System2RoleFeat",
+"target": "RoleFeat"
+}
+},
+"children": [],
+"context": "System",
+"id": 4,
+"objects": [
+"MyManga"
+],
+"parents": [
+69,
+71
+]
+},
+{
+"attributes": {
+"manageProfile": "manageProfile"
+},
+"children": [],
+"context": "Feature",
+"id": 21,
+"objects": [
+"manageProfile"
+],
+"parents": []
+},
+{
+"attributes": {
+"manageUserAccount": "manageUserAccount"
+},
+"children": [],
+"context": "Feature",
+"id": 20,
+"objects": [
+"manageUserAccount"
+],
+"parents": []
+},
+{
+"attributes": {
+"signUp": "signUp"
+},
+"children": [],
+"context": "Feature",
+"id": 19,
+"objects": [
+"signUp"
+],
+"parents": []
+},
+{
+"attributes": {
+"makePromotionalCampaign": "makePromotionalCampaign"
+},
+"children": [],
+"context": "Feature",
+"id": 18,
+"objects": [
+"makePromotionalCampaign"
+],
+"parents": []
+},
+{
+"attributes": {
+"pay": "pay"
+},
+"children": [],
+"context": "Feature",
+"id": 17,
+"objects": [
+"pay"
+],
+"parents": []
+},
+{
+"attributes": {
+"manageCart": "manageCart"
+},
+"children": [],
+"context": "Feature",
+"id": 16,
+"objects": [
+"manageCart"
+],
+"parents": []
+},
+{
+"attributes": {
+"CRUDproducts": "CRUDproducts"
+},
+"children": [],
+"context": "Feature",
+"id": 15,
+"objects": [
+"CRUDproducts"
+],
+"parents": []
+},
+{
+"attributes": {
+"moderateComment": "moderateComment"
+},
+"children": [],
+"context": "Feature",
+"id": 14,
+"objects": [
+"moderateComment"
+],
+"parents": []
+},
+{
+"attributes": {
+"addComment": "addComment"
+},
+"children": [],
+"context": "Feature",
+"id": 13,
+"objects": [
+"addComment"
+],
+"parents": []
+},
+{
+"attributes": {
+"viewComment": "viewComment"
+},
+"children": [],
+"context": "Feature",
+"id": 12,
+"objects": [
+"viewComment"
+],
+"parents": []
+},
+{
+"attributes": {
+"search": "search"
+},
+"children": [],
+"context": "Feature",
+"id": 11,
+"objects": [
+"search"
+],
+"parents": []
+},
+{
+"attributes": {
+"registeredUser": "registeredUser"
+},
+"children": [],
+"context": "Role",
+"id": 26,
+"objects": [
+"registeredUser"
+],
+"parents": []
+},
+{
+"attributes": {
+"admin": "admin"
+},
+"children": [],
+"context": "Role",
+"id": 25,
+"objects": [
+"admin"
+],
+"parents": []
+},
+{
+"attributes": {
+"communityManager": "communityManager"
+},
+"children": [],
+"context": "Role",
+"id": 24,
+"objects": [
+"communityManager"
+],
+"parents": []
+},
+{
+"attributes": {
+"productOwner": "productOwner"
+},
+"children": [],
+"context": "Role",
+"id": 23,
+"objects": [
+"productOwner"
+],
+"parents": []
+},
+{
+"attributes": {
+"User": "User"
+},
+"children": [],
+"context": "Role",
+"id": 22,
+"objects": [
+"User"
+],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+21
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+44,
+53,
+55
+],
+"context": "RoleFeat",
+"id": 65,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Role": {
+"concepts": [
+25
+],
+"operator": "exist",
+"relation": "RoleFeat2Role",
+"target": "Role"
+}
+},
+"children": [
+41,
+44,
+50,
+53,
+61
+],
+"context": "RoleFeat",
+"id": 63,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Role": {
+"concepts": [
+22
+],
+"operator": "exist",
+"relation": "RoleFeat2Role",
+"target": "Role"
+}
+},
+"children": [
+54,
+56,
+57,
+58,
+59,
+60
+],
+"context": "RoleFeat",
+"id": 62,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+14
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+},
+"exist_RoleFeat2Role": {
+"concepts": [
+24
+],
+"operator": "exist",
+"relation": "RoleFeat2Role",
+"target": "Role"
+}
+},
+"children": [
+31,
+48
+],
+"context": "RoleFeat",
+"id": 67,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Role": {
+"concepts": [
+23
+],
+"operator": "exist",
+"relation": "RoleFeat2Role",
+"target": "Role"
+}
+},
+"children": [
+30,
+35,
+36
+],
+"context": "RoleFeat",
+"id": 66,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Role": {
+"concepts": [
+26
+],
+"operator": "exist",
+"relation": "RoleFeat2Role",
+"target": "Role"
+}
+},
+"children": [
+43,
+52
+],
+"context": "RoleFeat",
+"id": 55,
+"objects": [],
+"parents": [
+65
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+20
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+42,
+51
+],
+"context": "RoleFeat",
+"id": 61,
+"objects": [],
+"parents": [
+63
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+15
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+30,
+36,
+41,
+50
+],
+"context": "RoleFeat",
+"id": 64,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+19
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+40,
+49
+],
+"context": "RoleFeat",
+"id": 60,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+13
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+29,
+47
+],
+"context": "RoleFeat",
+"id": 57,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+12
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+28,
+46
+],
+"context": "RoleFeat",
+"id": 56,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+11
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+27,
+32,
+37,
+45
+],
+"context": "RoleFeat",
+"id": 54,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+17
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+34,
+39
+],
+"context": "RoleFeat",
+"id": 59,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"exist_RoleFeat2Feat": {
+"concepts": [
+16
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [
+33,
+38
+],
+"context": "RoleFeat",
+"id": 58,
+"objects": [],
+"parents": [
+62
+]
+},
+{
+"attributes": {
+"MangaHome,communityManager,moderateComment": "MangaHome,communityManager,moderateComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 48,
+"objects": [
+"MangaHome,communityManager,moderateComment"
+],
+"parents": [
+67
+]
+},
+{
+"attributes": {
+"MangaStore,productOwner,makePromotionalCampaign": "MangaStore,productOwner,makePromotionalCampaign",
+"exist_RoleFeat2Feat": {
+"concepts": [
+18
+],
+"operator": "exist",
+"relation": "RoleFeat2Feat",
+"target": "Feature"
+}
+},
+"children": [],
+"context": "RoleFeat",
+"id": 35,
+"objects": [
+"MangaStore,productOwner,makePromotionalCampaign"
+],
+"parents": [
+66
+]
+},
+{
+"attributes": {
+"MyManga,communityManager,moderateComment": "MyManga,communityManager,moderateComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 31,
+"objects": [
+"MyManga,communityManager,moderateComment"
+],
+"parents": [
+67
+]
+},
+{
+"attributes": {
+"MangaHome,admin,manageProfile": "MangaHome,admin,manageProfile"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 53,
+"objects": [
+"MangaHome,admin,manageProfile"
+],
+"parents": [
+63,
+65
+]
+},
+{
+"attributes": {
+"MangaHome,registeredUser,manageProfile": "MangaHome,registeredUser,manageProfile"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 52,
+"objects": [
+"MangaHome,registeredUser,manageProfile"
+],
+"parents": [
+55
+]
+},
+{
+"attributes": {
+"MangaHome,admin,manageUserAccount": "MangaHome,admin,manageUserAccount"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 51,
+"objects": [
+"MangaHome,admin,manageUserAccount"
+],
+"parents": [
+61
+]
+},
+{
+"attributes": {
+"MangaHome,admin,CRUDproducts": "MangaHome,admin,CRUDproducts"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 50,
+"objects": [
+"MangaHome,admin,CRUDproducts"
+],
+"parents": [
+63,
+64
+]
+},
+{
+"attributes": {
+"MangaHome,user,signUp": "MangaHome,user,signUp"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 49,
+"objects": [
+"MangaHome,user,signUp"
+],
+"parents": [
+60
+]
+},
+{
+"attributes": {
+"MangaHome,user,addComment": "MangaHome,user,addComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 47,
+"objects": [
+"MangaHome,user,addComment"
+],
+"parents": [
+57
+]
+},
+{
+"attributes": {
+"MangaHome,user,viewComment": "MangaHome,user,viewComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 46,
+"objects": [
+"MangaHome,user,viewComment"
+],
+"parents": [
+56
+]
+},
+{
+"attributes": {
+"MangaHome,user,search": "MangaHome,user,search"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 45,
+"objects": [
+"MangaHome,user,search"
+],
+"parents": [
+54
+]
+},
+{
+"attributes": {
+"MangaFan,admin,manageProfile": "MangaFan,admin,manageProfile"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 44,
+"objects": [
+"MangaFan,admin,manageProfile"
+],
+"parents": [
+63,
+65
+]
+},
+{
+"attributes": {
+"MangaFan,registeredUser,manageProfile": "MangaFan,registeredUser,manageProfile"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 43,
+"objects": [
+"MangaFan,registeredUser,manageProfile"
+],
+"parents": [
+55
+]
+},
+{
+"attributes": {
+"MangaFan,admin,manageUserAccount": "MangaFan,admin,manageUserAccount"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 42,
+"objects": [
+"MangaFan,admin,manageUserAccount"
+],
+"parents": [
+61
+]
+},
+{
+"attributes": {
+"MangaFan,admin,CRUDproducts": "MangaFan,admin,CRUDproducts"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 41,
+"objects": [
+"MangaFan,admin,CRUDproducts"
+],
+"parents": [
+63,
+64
+]
+},
+{
+"attributes": {
+"MangaFan,user,signUp": "MangaFan,user,signUp"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 40,
+"objects": [
+"MangaFan,user,signUp"
+],
+"parents": [
+60
+]
+},
+{
+"attributes": {
+"MangaFan,user,pay": "MangaFan,user,pay"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 39,
+"objects": [
+"MangaFan,user,pay"
+],
+"parents": [
+59
+]
+},
+{
+"attributes": {
+"MangaFan,user,manageCart": "MangaFan,user,manageCart"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 38,
+"objects": [
+"MangaFan,user,manageCart"
+],
+"parents": [
+58
+]
+},
+{
+"attributes": {
+"MangaFan,user,search": "MangaFan,user,search"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 37,
+"objects": [
+"MangaFan,user,search"
+],
+"parents": [
+54
+]
+},
+{
+"attributes": {
+"MangaStore,productOwner,CRUDproducts": "MangaStore,productOwner,CRUDproducts"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 36,
+"objects": [
+"MangaStore,productOwner,CRUDproducts"
+],
+"parents": [
+64,
+66
+]
+},
+{
+"attributes": {
+"MangaStore,user,pay": "MangaStore,user,pay"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 34,
+"objects": [
+"MangaStore,user,pay"
+],
+"parents": [
+59
+]
+},
+{
+"attributes": {
+"MangaStore,user,manageCart": "MangaStore,user,manageCart"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 33,
+"objects": [
+"MangaStore,user,manageCart"
+],
+"parents": [
+58
+]
+},
+{
+"attributes": {
+"MangaStore,user,search": "MangaStore,user,search"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 32,
+"objects": [
+"MangaStore,user,search"
+],
+"parents": [
+54
+]
+},
+{
+"attributes": {
+"MyManga,productOwner,CRUDproducts": "MyManga,productOwner,CRUDproducts"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 30,
+"objects": [
+"MyManga,productOwner,CRUDproducts"
+],
+"parents": [
+64,
+66
+]
+},
+{
+"attributes": {
+"MyManga,user,addComment": "MyManga,user,addComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 29,
+"objects": [
+"MyManga,user,addComment"
+],
+"parents": [
+57
+]
+},
+{
+"attributes": {
+"MyManga,user,viewComment": "MyManga,user,viewComment"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 28,
+"objects": [
+"MyManga,user,viewComment"
+],
+"parents": [
+56
+]
+},
+{
+"attributes": {
+"MyManga,user,search": "MyManga,user,search"
+},
+"children": [],
+"context": "RoleFeat",
+"id": 27,
+"objects": [
+"MyManga,user,search"
+],
+"parents": [
+54
+]
+}
+]
